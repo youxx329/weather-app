@@ -1,0 +1,29 @@
+body {
+  background: url(../public/background.png);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-box {
+  border: 3px solid #fff;
+  /* background: #fff; */
+  border-radius: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.weather-box h2 {
+  font-size: 25px;
+}
+.weather-box h3 {
+  font-size: 20px;
+}
+
+.btn-wrap {
+  display: flex;
+  gap: 7px;
+}
