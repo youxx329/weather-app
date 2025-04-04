@@ -14,10 +14,12 @@ body {
   border-radius: 10px;
   margin-bottom: 15px;
   text-align: center;
+  padding: 15px;
 }
 
 .weather-box h2 {
   font-size: 25px;
+  margin-top: 10px;
 }
 .weather-box h3 {
   font-size: 20px;
@@ -26,4 +28,15 @@ body {
 .btn-wrap {
   display: flex;
   gap: 7px;
+  width: 500px;
+}
+
+.current-btn {
+  flex: 1;
+}
+
+@media (max-width: 500px) {
+  .btn-wrap {
+    width: 100%;
+  }
 }
