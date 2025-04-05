@@ -25,13 +25,21 @@ body {
   font-size: 20px;
 }
 
-.btn-wrap {
-  display: flex;
-  gap: 7px;
-  width: 500px;
+.selected-btn {
+  background-color: #36d7b7 !important;
+  color: white !important;
+  border: 2px solid #2bada8;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
 }
 
-.current-btn {
+.btn-wrap {
+  display: flex;
+  gap: 12px;
+  width: 650px;
+}
+
+.btn-wrap button {
   flex: 1;
 }
 
