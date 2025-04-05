@@ -25,7 +25,7 @@ function App() {
   }
 
   const getWeatherByCurrentLocation = async(lat, lon) => {
-    const apiKey = '7c54c22e8e6e55d38bb84159e4e486a7'
+    const apiKey = import.meta.env.VITE_APP_OPENWEATHER_API_KEY;
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
     const response = await fetch(url);
     const data = await response.json();
